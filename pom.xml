@@ -71,17 +71,18 @@
         </plugin>
 			
 		</plugins>
-	</build><distributionManagement>
+	</build>
+	<distributionManagement>
 <repository>
 <id>nexus</id>
 <name>maven-releases</name>
-<url>http://13.233.58.49:8081/repository/maven-releases/</url>
+<url>http://13.232.98.180:8081/repository/maven-releases/</url>
 </repository>
 <snapshotRepository>
 <id>nexus</id>
 <name>maven-snapshots</name>
-<url>http://13.233.58.49:8081/repository/maven-snapshots/</url>
+<url>http://13.232.98.180:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
-
+</project>
 </project>
